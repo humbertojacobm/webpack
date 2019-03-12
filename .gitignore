@@ -3,3 +3,4 @@ platzi-video
 .DS_Store
 bundle.js
 external/dist
+multiples-entry-points/dist
