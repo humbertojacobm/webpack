@@ -4,3 +4,4 @@ platzi-video
 bundle.js
 external/dist
 multiples-entry-points/dist
+webpack-dev-server/dist
