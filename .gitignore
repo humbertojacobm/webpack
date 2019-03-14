@@ -5,3 +5,5 @@ bundle.js
 external/dist
 multiples-entry-points/dist
 webpack-dev-server/dist
+babel-loader/dist
+package-lock.json
