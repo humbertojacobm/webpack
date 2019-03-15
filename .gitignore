@@ -6,4 +6,5 @@ external/dist
 multiples-entry-points/dist
 webpack-dev-server/dist
 babel-loader/dist
+url-loader-images/dist
 package-lock.json
