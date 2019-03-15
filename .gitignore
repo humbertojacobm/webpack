@@ -7,4 +7,5 @@ multiples-entry-points/dist
 webpack-dev-server/dist
 babel-loader/dist
 url-loader-images/dist
+url-loader-fonts/dist
 package-lock.json
