@@ -9,4 +9,6 @@ babel-loader/dist
 url-loader-images/dist
 url-loader-fonts/dist
 url-loader-video/dist
+file-loader-video/dist
+json-loader/dist
 package-lock.json
