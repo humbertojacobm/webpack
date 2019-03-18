@@ -8,4 +8,5 @@ webpack-dev-server/dist
 babel-loader/dist
 url-loader-images/dist
 url-loader-fonts/dist
+url-loader-video/dist
 package-lock.json
