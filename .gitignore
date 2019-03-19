@@ -11,4 +11,5 @@ url-loader-fonts/dist
 url-loader-video/dist
 file-loader-video/dist
 json-loader/dist
+react/dist
 package-lock.json
