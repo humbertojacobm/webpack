@@ -13,4 +13,5 @@ file-loader-video/dist
 json-loader/dist
 react/dist
 sass-loader/dist
+stylus-loader/dist
 package-lock.json
