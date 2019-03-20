@@ -12,4 +12,5 @@ url-loader-video/dist
 file-loader-video/dist
 json-loader/dist
 react/dist
+sass-loader/dist
 package-lock.json
