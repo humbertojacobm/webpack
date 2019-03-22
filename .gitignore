@@ -15,4 +15,5 @@ react/dist
 sass-loader/dist
 stylus-loader/dist
 less-loader/dist
+postcss-loader/dist
 package-lock.json
