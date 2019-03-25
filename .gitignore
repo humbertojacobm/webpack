@@ -16,4 +16,5 @@ sass-loader/dist
 stylus-loader/dist
 less-loader/dist
 postcss-loader/dist
+prevent-duplications/dist
 package-lock.json
