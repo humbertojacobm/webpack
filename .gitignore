@@ -17,4 +17,5 @@ stylus-loader/dist
 less-loader/dist
 postcss-loader/dist
 prevent-duplications/dist
+vendor/dist
 package-lock.json
