@@ -4,10 +4,10 @@ const webpack = require('webpack');
 
 module.exports = {
   entry: {
-    vendor: [
-      'react',
-      'react-dom'
-    ],
+    // vendor: [
+    //   'react',
+    //   'react-dom'
+    // ],
     home: ['babel-polyfill', path.resolve(__dirname,'src/js/index.js')],
     contact: ['babel-polyfill',path.resolve(__dirname,'src/js/contact.js')]
   },
@@ -112,9 +112,12 @@ module.exports = {
   plugins:[
     //aqui van los plugins.
     new ExtractTextPlugin("css/[name].css"),
-    new webpack.optimize.CommonsChunkPlugin({
-      name: 'vendor',
-      minChunks: Infinity,
+    // new webpack.optimize.CommonsChunkPlugin({
+    //   name: 'vendor',
+    //   minChunks: Infinity,
+    // })
+    new webpack.DllReferencePlugin({
+      manifest: require('./modules-manifest.json')
     })
   ]
 }
