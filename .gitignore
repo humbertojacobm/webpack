@@ -19,4 +19,5 @@ postcss-loader/dist
 prevent-duplications/dist
 vendor/dist
 dll/dist
+dynamic-imports/dist
 package-lock.json

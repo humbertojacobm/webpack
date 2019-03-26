@@ -25,7 +25,8 @@
     "build:prevent": "webpack --config ./prevent-duplications/webpack.config.js",
     "build:vendor": "webpack --config ./vendor/webpack.config.js",
     "build:dll": "webpack --config ./dll/webpack.dll.config.js",
-    "build:dll:src": "webpack --config ./dll/webpack.config.js"
+    "build:dll:src": "webpack --config ./dll/webpack.config.js",
+    "build:dynamic": "webpack --config ./dynamic-imports/webpack.config.js"
   },
   "keywords": [
     "webpack"
@@ -36,6 +37,7 @@
     "@babel/core": "7.3.4",
     "@babel/preset-env": "7.3.4",
     "babel-loader": "8.0.5",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "babel-polyfill": "6.26.0",
     "babel-preset-react": "6.24.1",
     "css-loader": "0.28.7",
