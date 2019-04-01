@@ -53,7 +53,7 @@ class Portada extends Component {
           {
             !this.props.isAnimated &&
             <div className="contenedor" key="portada">
-              <h1 className="titulo">Guitarras <span>invie</span>sibles</h1>
+              <h1 className="titulo">Guitarras <span>Platzi</span></h1>
               <h3 className="title-a">Sé la estrella de rock que siempre quisiste ser</h3>
               <a className="button" href="#guitarras">Conoce mas</a>
             </div>

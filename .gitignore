@@ -20,4 +20,5 @@ prevent-duplications/dist
 vendor/dist
 dll/dist
 dynamic-imports/dist
+invie/node_modules
 package-lock.json
