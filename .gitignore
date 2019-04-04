@@ -21,4 +21,7 @@ vendor/dist
 dll/dist
 dynamic-imports/dist
 invie/node_modules
+invie/dist
+hot-module-replacement/node_modules
+hot-module-replacement/dist
 package-lock.json
